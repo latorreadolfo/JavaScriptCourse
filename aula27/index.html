@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Calculate your Body Mass Index:</h1>
+    <form action="/" id="formInput"  method="POST">
+      <label for="input-weight">Weight:</label>
+      <input type="text" id="input-weight" name="weight">
+
+      <label for="input-height">Height:</label>
+      <input type="text" id="input-height" name="height">
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result" class="result"></div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
