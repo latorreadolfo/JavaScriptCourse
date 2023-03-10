@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Password Generator</title>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Password Generator</h1>
+    <div class="output-pwd">Check your options:</div>
+
+    <div class="window">
+
+      How many characters: <input value="10" type="number" min="4" max="30" class="qty-char"><br>
+      Add Upper Case <input type="checkbox" class="chk-upper" checked><br>
+      Add Lower Case <input type="checkbox" class="chk-lower" checked><br>
+      Add Numbers <input type="checkbox" class="chk-number"><br>
+      Add Symbols <input type="checkbox" class="chk-symbol"><br>
+      <button class="generatepwd">Generate</button>
+    
+    </div>
+
+
+  </section>
+
+  <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
